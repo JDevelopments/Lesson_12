@@ -100,6 +100,8 @@ body{
 /*     SKEY    */
 
 .page__skew {
+   box-shadow: none;
+   border: none;
    position: absolute;
    letter-spacing: 0;
    top: 150px;
@@ -111,10 +113,9 @@ body{
 }
 
 .transform__front-element:hover{
-   box-shadow: none; 
+   box-shadow: none;
    opacity: 0.5;
-   z-index: 1;
-  
+   z-index: 1; 
 }
 
 .transform__front-element:hover~.transform__right-element{
