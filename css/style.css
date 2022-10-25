@@ -175,6 +175,7 @@ body{
 .tramsform__perspective-element:hover{
  transform: rotateX(45deg);
  transition: 0.5s;
+ 
 }
 
 
